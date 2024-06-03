@@ -59,7 +59,6 @@ function getTargetPosition(targetElement) {
 }
 
 function calcModalPosition(buttonPos, modalSize, modalType) {
-  console.log(modalType);
   const windowSize = {
     height: window.innerHeight,
     width: window.innerWidth,
